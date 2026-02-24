@@ -1,2 +1,10 @@
-# Troll-Virus-Pass-1234
-This is a joke script. It is NOT malware, it doesn't delete data or steal passwords.  (   **Unlock Password:** `1234` *   **Mechanics:** If an incorrect password is entered, the script opens a URL and prompts for the password again. *   **Emergency Stop:** Open "Task Manager" (Ctrl+Shift+Esc) and terminate the `wscript.exe` process. )
+Do
+    password = InputBox("CRITICAL SYSTEM ERROR!" & vbCrLf & vbCrLf & "Your computer has been seized by the Trollface Syndicate. Enter the decryption key to regain access:", "Troll Virus v1.0")
+    
+    If password = "1234" Then
+        MsgBox "Access Granted. You survived the troll.", 64, "System Restored"
+        Exit Do
+    Else
+        MsgBox "Incorrect Password! The troll is laughing at you.", 16, "Access Denied"
+    End If
+Loop
